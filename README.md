@@ -19,3 +19,13 @@ wget -qO- bench.sh | bash
 (curl -s wget.racing/nench.sh | bash; curl -s wget.racing/nench.sh | bash) 2>&1 | tee nench.log
 
 ```
+
+
+https://github.com/masonr/yet-another-bench-script
+
+```bash
+
+curl -sL yabs.sh | bash
+
+wget -qO- yabs.sh | bash
+```
