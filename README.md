@@ -29,7 +29,7 @@ wget -qO- yabs.sh | bash
 
 ```bash
 
-wget https://cdn.ipip.net/17mon/besttrace4linux.zip && yum install -y unzip && unzip besttrace4linux.zip && chmod +x besttrace && cp besttrace /usr/local/bin
+yum install -y wget && wget https://cdn.ipip.net/17mon/besttrace4linux.zip && yum install -y unzip && unzip besttrace4linux.zip && chmod +x besttrace && cp besttrace /usr/local/bin
 
 # 北京联通
 besttrace -g cn -q 1 -T 202.106.196.115
