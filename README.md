@@ -29,6 +29,8 @@ wget -qO- yabs.sh | bash
 
 ```bash
 
+systemctl stop firewalld.service
+
 yum install -y wget && wget https://cdn.ipip.net/17mon/besttrace4linux.zip && yum install -y unzip && unzip besttrace4linux.zip && chmod +x besttrace && cp besttrace /usr/local/bin
 
 # 北京联通
