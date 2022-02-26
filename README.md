@@ -43,3 +43,11 @@ besttrace -g cn -q 1 -T 202.96.128.86
 # 广东移动
 besttrace -g cn -q 1 -T 211.136.17.107
 ```
+
+
+
+## 下载
+
+```bash
+yum install -y nginx && dd if=/dev/random of=/usr/share/nginx/html/test.bin count=102400 bs=1024
+```
