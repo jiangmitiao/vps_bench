@@ -8,3 +8,14 @@ bash <(curl -s https://raw.githubusercontent.com/evolutionboy/superspeed/master/
 
 bash <(curl -s https://raw.githubusercontent.com/evolutionboy/superspeed/master/superspeeds.sh)
 ```
+
+
+https://github.com/haydenjames/bench-scripts
+
+```bash
+
+wget -qO- bench.sh | bash
+
+(curl -s wget.racing/nench.sh | bash; curl -s wget.racing/nench.sh | bash) 2>&1 | tee nench.log
+
+```
