@@ -16,6 +16,8 @@ https://github.com/haydenjames/bench-scripts
 
 wget -qO- bench.sh | bash
 
+curl -s wget.racing/nench.sh | bash
+
 (curl -s wget.racing/nench.sh | bash; curl -s wget.racing/nench.sh | bash) 2>&1 | tee nench.log
 
 ```
