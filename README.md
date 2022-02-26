@@ -29,11 +29,7 @@ wget -qO- yabs.sh | bash
 
 ```bash
 
-wget https://cdn.ipip.net/17mon/besttrace4linux.zip
-apt install unzip
-unzip besttrace4linux.zip
-chmod +x besttrace
-
+wget https://cdn.ipip.net/17mon/besttrace4linux.zip && yum install -y install unzip && unzip besttrace4linux.zip && chmod +x besttrace && cp besttrace /usr/local/bin
 
 
 ./besttrace -q 1 IP 地址
