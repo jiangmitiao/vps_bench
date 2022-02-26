@@ -1,13 +1,4 @@
-## 测速
 
-https://github.com/evolutionboy/superspeed
-
-```bash
-
-bash <(curl -s https://raw.githubusercontent.com/evolutionboy/superspeed/master/superspeed.sh)
-
-bash <(curl -s https://raw.githubusercontent.com/evolutionboy/superspeed/master/superspeeds.sh)
-```
 
 
 https://github.com/haydenjames/bench-scripts
@@ -30,4 +21,24 @@ https://github.com/masonr/yet-another-bench-script
 curl -sL yabs.sh | bash
 
 wget -qO- yabs.sh | bash
+```
+
+
+
+
+
+```bash
+
+wget https://cdn.ipip.net/17mon/besttrace4linux.zip
+apt install unzip
+unzip besttrace4linux.zip
+chmod +x besttrace
+
+
+
+./besttrace -q 1 IP 地址
+./besttrace -q 1 bj.10086.cn          //广东移动
+./besttrace -q 1 bj.189.cn              //广东电信
+./besttrace -q 1 mall.bj10010.cn   //广东联通
+./bsettrace -q 1 202.106.196.115
 ```
