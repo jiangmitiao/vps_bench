@@ -51,7 +51,11 @@ besttrace -g cn -q 1 -T 211.136.17.107
 ## 下载
 
 ```bash
-yum install -y epel-release && yum install -y nginx && systemctl start nginx && dd if=/dev/random of=/usr/share/nginx/html/test.bin count=102400 bs=1024
+yum install -y epel-release && yum install -y nginx && systemctl start nginx
+
+cd /usr/share/nginx/html && wget -O test.bin http://minino.galpon.org/ISO/minino-artabros-minimal.iso
+
+dd if=/dev/random of=/usr/share/nginx/html/test.bin count=102400 bs=1024
 
 curl -Lo /dev/null -skw "%{speed_download}\n"  http://XXX/test.bin
 ```
